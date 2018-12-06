@@ -10,6 +10,7 @@ function isActiveClient(client) {
 }
 
 function parseBetterJSAlternative(code) {
+  // another comment here we go
   const tokens = tokenize(code);
   const ast = lexer(tokens);
   ast.forEach((node) => {
